@@ -1,0 +1,184 @@
+{
+  "sections": {
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_8AW9WK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_AzArfM": {
+          "type": "heading",
+          "settings": {
+            "heading": "YOUR ONE-STOP SHOP FOR TINNED GOODS.",
+            "heading_size": "h1"
+          }
+        },
+        "caption_hjgdVJ": {
+          "type": "caption",
+          "settings": {
+            "caption": "image",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AzArfM",
+        "caption_hjgdVJ"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-a0fa0bd6-943c-4da6-9eca-50f0db669e63",
+        "color_scheme": "scheme-a0fa0bd6-943c-4da6-9eca-50f0db669e63",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 20
+      }
+    },
+    "collection_list_VWKryD": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_NBVqH3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "best-sellers"
+          }
+        },
+        "featured_collection_wyJ3Dz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sardines"
+          }
+        },
+        "featured_collection_AMPEyd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crackers"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_NBVqH3",
+        "featured_collection_wyJ3Dz",
+        "featured_collection_AMPEyd"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-a0fa0bd6-943c-4da6-9eca-50f0db669e63",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_Aiirdi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Q4frkP": {
+          "type": "heading",
+          "settings": {
+            "heading": "FEATURED TIN OF THE MONTH",
+            "heading_size": "h2"
+          }
+        },
+        "button_ggacgL": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP",
+            "button_link": "shopify:\/\/collections\/featured-tin",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q4frkP",
+        "button_ggacgL"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-a0fa0bd6-943c-4da6-9eca-50f0db669e63",
+        "color_scheme": "scheme-a0fa0bd6-943c-4da6-9eca-50f0db669e63",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_banner_34Ubgb": {
+      "type": "image-banner",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage_banner.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-a0fa0bd6-943c-4da6-9eca-50f0db669e63",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "featured_collection",
+    "image_with_text_8AW9WK",
+    "collection_list_VWKryD",
+    "image_with_text_Aiirdi",
+    "image_banner_34Ubgb"
+  ]
+}
